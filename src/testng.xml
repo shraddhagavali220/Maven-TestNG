@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="smoke"/>
+            <include name="sanity"/>
+
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true" name="C:/Users/Shraddha Karande/IdeaProjects/Maven_TestNG">
+        <classes>
+            <class name="testngbasic.BeforeAndAfterAnnotationExample"/>
+            <class name="testngbasic.PriorityExample"/>
+            <class name="testngbasic.BeforeAndAfterMethod"/>
+            <class name="testngbasic.DependsOnGroup"/>
+            <class name="testngbasic.DependsOnMethodExample"/>
+            <class name="testngbasic.InvocationCountAttribute"/>
+            <class name="testngbasic.NeedOfTestNG"/>
+
+
+        </classes>
+    </test>>
+</suite>
+
